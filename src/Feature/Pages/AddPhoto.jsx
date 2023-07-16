@@ -1,5 +1,5 @@
-import Layout from '../../components/Layout';
-import { PhotoForm } from '../../Feature';
+import { Layout } from 'src/components';
+import { PhotoForm } from '..';
 
 const AddPhoto = () => {
   return (

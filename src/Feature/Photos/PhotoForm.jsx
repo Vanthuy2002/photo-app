@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import Select from 'react-select';
 import { Button, Form, FormGroup, Input, Label } from 'reactstrap';
-import { PHOTO_CATEGORY_OPTIONS } from '../../utils/contants';
+import { PHOTO_CATEGORY_OPTIONS } from 'src/utils/contants';
 
 function PhotoForm({ onSubmit }) {
   return (
