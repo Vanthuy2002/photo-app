@@ -1,0 +1,47 @@
+.header {
+  padding: 1rem 0;
+  font-size: 1.25rem;
+
+  &_title {
+    font-weight: bold;
+  }
+
+  &_link {
+    color: #000;
+    transition: all 0.25s ease-in-out 0s;
+    &:hover {
+      color: #2cccff;
+    }
+  }
+}
+a {
+  text-decoration: none;
+}
+
+.right {
+  text-align: right;
+}
+
+.banner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+
+  background-image: url('/orange-bg.jpg');
+  background-position: center;
+  background-size: cover;
+
+  &__title {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: bold;
+  }
+}
+
+.photo-edit {
+  &__form {
+    margin: 2rem auto 1rem auto;
+    max-width: 25rem;
+  }
+}
